@@ -77,6 +77,23 @@
             
         }
 
+        .card {
+          /* Add shadows to create the "card" effect */
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          width: 20%;
+        }
+
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        /* Add some padding inside the card container */
+        .container {
+          padding: 2px 16px;
+        }
+
        
 
   </style>
@@ -99,47 +116,14 @@
     </nav>
   </header>
 
-  <table>
-      <thead>
-        <tr>
-          <th>Column 1</th>
-          <th>Column 2</th>
-          <th>Column 3</th>
-          <th>Column 4</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Row 1, Column 1</td>
-          <td>Row 1, Column 2</td>
-          <td>Row 1, Column 3</td>
-          <td>Row 1, Column 4</td>
-        </tr>
-        <tr>
-          <td>Row 2, Column 1</td>
-          <td>Row 2, Column 2</td>
-          <td>Row 2, Column 3</td>
-          <td>Row 2, Column 4</td>
-        </tr>
-        <tr>
-          <td>Row 3, Column 1</td>
-          <td>Row 3, Column 2</td>
-          <td>Row 3, Column 3</td>
-          <td>Row 3, Column 4</td>
-        </tr>
-        <tr>
-          <td>Row 4, Column 1</td>
-          <td>Row 4, Column 2</td>
-          <td>Row 4, Column 3</td>
-          <td>Row 4, Column 4</td>
-        </tr>
-        <tr>
-          <td>Row 5, Column 1</td>
-          <td>Row 5, Column 2</td>
-          <td>Row 5, Column 3</td>
-          <td>Row 5, Column 4</td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="card">
+    <img src="" alt="Avatar" style="width:100%">
+    <div class="container">
+      <h4><b>John Doe</b></h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequatur placeat nesciunt? Delectus eum mollitia fugit distinctio nemo, ipsum facilis eveniet beatae placeat, nihil sunt sed qui laboriosam repudiandae maiores.</p>
+    </div>
+  </div>
+
+
 </body>
 </html>
